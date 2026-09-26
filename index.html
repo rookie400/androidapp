@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Echomix Videoke App</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f4f6;
+    color: #222;
+}
+
+.app {
+    max-width: 600px;
+    margin: auto;
+    min-height: 100vh;
+    background: white;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #7b2cff, #4d17c9);
+    color: white;
+    padding: 35px 20px 30px;
+    text-align: center;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    object-fit: cover;
+    background: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+.app-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.category {
+    margin-top: 6px;
+    opacity: .85;
+    font-size: 14px;
+}
+
+/* Content */
+.content {
+    padding: 25px 20px 40px;
+}
+
+/* Rating */
+.rating-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.rating-number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.stars {
+    color: #ffb400;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.rating-count {
+    color: #777;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* Download */
+.download-btn {
+    display: block;
+    width: 100%;
+    padding: 17px;
+    margin: 25px 0;
+    border-radius: 12px;
+    background: #18a957;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 0 5px 12px rgba(24,169,87,.25);
+}
+
+.download-btn:active {
+    transform: scale(.98);
+}
+
+/* Description */
+h2 {
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.description {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Information */
+.info {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.info-card {
+    flex: 1;
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+.info-title {
+    color: #777;
+    font-size: 11px;
+}
+
+.info-value {
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+/* Reviews */
+.review {
+    padding: 18px 0;
+    border-top: 1px solid #eee;
+}
+
+.review-name {
+    font-weight: bold;
+}
+
+.review-stars {
+    color: #ffb400;
+    margin: 5px 0;
+}
+
+.review-text {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+    padding: 25px;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="header">
+
+        <img
+            src="icon.png"
+            alt="Echomix Videoke App"
+            class="icon"
+        >
+
+        <div class="app-name">
+            Echomix Videoke App
+        </div>
+
+        <div class="category">
+            🎤 Music & Entertainment
+        </div>
+
+    </div>
+
+
+    <div class="content">
+
+        <!-- Rating -->
+        <div class="rating-box">
+
+            <div>
+                <div class="rating-number">4.7</div>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="rating-count">
+                    4.7 out of 5
+                </div>
+            </div>
+
+            <div style="text-align:right;">
+                <strong>Android App</strong><br>
+
+                <span style="color:#777;font-size:13px;">
+                    Videoke Player
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- Download -->
+        <a
+            class="download-btn"
+            href="https://drive.google.com/uc?export=download&id=1DdVaM0xacOX915Dn1Lc4MjGbF_O_gGaR"
+        >
+            ⬇ Download App
+        </a>
+
+
+        <!-- Description -->
+        <h2>About this app</h2>
+
+        <div class="description">
+
+            <strong>Echomix Videoke App</strong> is a simple
+            and convenient videoke player designed for Android devices.
+
+            <br><br>
+
+            Enjoy your favorite songs, search for your preferred
+            videoke tracks, and sing along using a simple and
+            easy-to-use interface.
+
+            <br><br>
+
+            Perfect for home videoke, parties, family gatherings,
+            and karaoke sessions with friends.
+
+        </div>
+
+
+        <!-- App Information -->
+        <div class="info">
+
+            <div class="info-card">
+                <div class="info-title">PLATFORM</div>
+                <div class="info-value">Android</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-title">CATEGORY</div>
+                <div class="info-value">Music</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-title">VERSION</div>
+                <div class="info-value">Latest</div>
+            </div>
+
+        </div>
+
+
+        <!-- Reviews -->
+        <h2>Reviews</h2>
+
+        <div class="review">
+
+            <div class="review-name">
+                Juan D.
+            </div>
+
+            <div class="review-stars">
+                ★★★★★
+            </div>
+
+            <div class="review-text">
+                Very easy to use and great for videoke nights!
+            </div>
+
+        </div>
+
+
+        <div class="review">
+
+            <div class="review-name">
+                Maria S.
+            </div>
+
+            <div class="review-stars">
+                ★★★★★
+            </div>
+
+            <div class="review-text">
+                Nice and simple videoke app. The interface is
+                easy to understand.
+            </div>
+
+        </div>
+
+
+        <div class="review">
+
+            <div class="review-name">
+                Mark R.
+            </div>
+
+            <div class="review-stars">
+                ★★★★☆
+            </div>
+
+            <div class="review-text">
+                Great app for home videoke. Looking forward to
+                more songs and updates.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        © 2026 Echomix Videoke App<br>
+        Made for Android devices
+    </div>
+
+</div>
+
+</body>
+</html>
