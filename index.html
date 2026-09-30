@@ -100,6 +100,7 @@ body {
     font-weight: bold;
     box-shadow: 0 5px 12px rgba(24,169,87,.25);
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .download-btn:active {
@@ -192,6 +193,10 @@ h2 {
         padding: 20px 15px 35px;
     }
 
+    .rating-box {
+        gap: 10px;
+    }
+
 }
 </style>
 </head>
@@ -257,12 +262,11 @@ h2 {
         </div>
 
 
-        <!-- DOWNLOAD -->
+        <!-- Download -->
         <a
             class="download-btn"
             href="https://drive.google.com/uc?export=download&id=1DCE0OsnD6FuUl3hPOiWHjjF_mjqiwlt0"
-            target="_blank"
-            rel="noopener"
+            download="Echomix-Videoke-App.apk"
         >
             ⬇ Download App
         </a>
@@ -275,11 +279,7 @@ h2 {
 
         <div class="description">
 
-            <strong>
-                Echomix Videoke App
-            </strong>
-
-            is a simple
+            <strong>Echomix Videoke App</strong> is a simple
             and convenient videoke player designed for Android devices.
 
             <br><br>
