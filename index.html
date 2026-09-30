@@ -99,6 +99,7 @@ body {
     font-size: 19px;
     font-weight: bold;
     box-shadow: 0 5px 12px rgba(24,169,87,.25);
+    cursor: pointer;
 }
 
 .download-btn:active {
@@ -170,6 +171,28 @@ h2 {
     color: #999;
     font-size: 12px;
 }
+
+/* Mobile */
+@media (max-width: 500px) {
+
+    .header {
+        padding: 30px 15px 25px;
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .app-name {
+        font-size: 24px;
+    }
+
+    .content {
+        padding: 20px 15px 35px;
+    }
+
+}
 </style>
 </head>
 
@@ -202,7 +225,10 @@ h2 {
         <div class="rating-box">
 
             <div>
-                <div class="rating-number">4.7</div>
+
+                <div class="rating-number">
+                    4.7
+                </div>
 
                 <div class="stars">
                     ★★★★★
@@ -211,34 +237,49 @@ h2 {
                 <div class="rating-count">
                     4.7 out of 5
                 </div>
+
             </div>
 
             <div style="text-align:right;">
-                <strong>Android App</strong><br>
+
+                <strong>
+                    Android App
+                </strong>
+
+                <br>
 
                 <span style="color:#777;font-size:13px;">
                     Videoke Player
                 </span>
+
             </div>
 
         </div>
 
 
-        <!-- Download -->
+        <!-- DOWNLOAD -->
         <a
             class="download-btn"
-            https://drive.google.com/file/d/1DCE0OsnD6FuUl3hPOiWHjjF_mjqiwlt0/view?usp=sharing"
+            href="https://drive.google.com/uc?export=download&id=1DCE0OsnD6FuUl3hPOiWHjjF_mjqiwlt0"
+            target="_blank"
+            rel="noopener"
         >
             ⬇ Download App
         </a>
 
 
         <!-- Description -->
-        <h2>About this app</h2>
+        <h2>
+            About this app
+        </h2>
 
         <div class="description">
 
-            <strong>Echomix Videoke App</strong> is a simple
+            <strong>
+                Echomix Videoke App
+            </strong>
+
+            is a simple
             and convenient videoke player designed for Android devices.
 
             <br><br>
@@ -259,25 +300,51 @@ h2 {
         <div class="info">
 
             <div class="info-card">
-                <div class="info-title">PLATFORM</div>
-                <div class="info-value">Android</div>
+
+                <div class="info-title">
+                    PLATFORM
+                </div>
+
+                <div class="info-value">
+                    Android
+                </div>
+
             </div>
 
-            <div class="info-card">
-                <div class="info-title">CATEGORY</div>
-                <div class="info-value">Music</div>
-            </div>
 
             <div class="info-card">
-                <div class="info-title">VERSION</div>
-                <div class="info-value">Latest</div>
+
+                <div class="info-title">
+                    CATEGORY
+                </div>
+
+                <div class="info-value">
+                    Music
+                </div>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="info-title">
+                    VERSION
+                </div>
+
+                <div class="info-value">
+                    Latest
+                </div>
+
             </div>
 
         </div>
 
 
         <!-- Reviews -->
-        <h2>Reviews</h2>
+        <h2>
+            Reviews
+        </h2>
+
 
         <div class="review">
 
@@ -335,8 +402,13 @@ h2 {
 
 
     <div class="footer">
-        © 2026 Echomix Videoke App<br>
+
+        © 2026 Echomix Videoke App
+
+        <br>
+
         Made for Android devices
+
     </div>
 
 </div>
